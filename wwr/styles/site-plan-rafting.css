@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300&display=swap);
+
+.quicksand-light {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #0D2C54;
+  --secondary-color: #7FB800;
+  --accent1-color: #00A6ED;
+  --accent2-color: #F6511D;
+  --heading-font: "Amatic SC", serif;
+  --paragraph-font: "Quicksand", serif;
+  --nav-background-color: #00A6ED;
+  --nav-link-color: #0D2C54;
+  --nav-hover-link-color: #0D2C54;
+  --nav-hover-background-color: #00A6ED;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+p {
+  padding: 25px;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+    
