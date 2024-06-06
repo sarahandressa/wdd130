@@ -210,7 +210,7 @@ footer p {
 .container {
     display : flex;
     align-items : flex-start;
-    background : #ffffff;
+    background : #00A6ED;
     height : 300px;
 }
 
@@ -221,7 +221,7 @@ footer p {
 
 .map {
     flex : 1;
-    width : 100%;
+    width : 50%;
     position : relative;
 }
 
@@ -258,7 +258,7 @@ footer p {
     
 form {
     padding : 20px;
-    background-color : #7DC8DA;
+    background-color : #00A6ED;
     display : flex;
     flex-direction : column;
     justify-content : center;
@@ -290,7 +290,7 @@ button {
     margin : 20px;
     padding : 10px;
     width : 20%;
-    background-color : #ffffff;
+    background-color : #7FB800;
     border : none;
     border-radius : 5px;
     font-size : 1.1rem;
@@ -303,7 +303,7 @@ input[type="text"], input[type="email"], textarea {
 }
 
 button:hover {
-    color : #ffffff;
+    color : #7FB800;
     background-color : #0D2C54;
 }
 
@@ -356,3 +356,26 @@ th {
     background-color : #F6511D;
 }
     
+.home {
+    position : relative;
+    display : flex;
+    align-items : center;
+    margin-bottom : 15px;
+}
+
+.home img {
+    display : block;
+    width : 100%;
+    height : 375px;
+}
+
+.home h1 {
+    position : absolute;
+    text-align : center;
+    left : 0;
+    right : 0;
+    justify-content : center;
+    background : #ffffff;
+    padding : 0.5rem;
+    opacity : 0.8;
+}
