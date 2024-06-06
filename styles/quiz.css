@@ -1,0 +1,80 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+h1 {
+    font-size : 3rem;
+    font-family : Arial, sans-serif;
+    text-align : center;
+}
+
+form {
+    width : 40%;
+    height : auto;
+    display : grid;
+    background-color : lightgray;
+    margin : 20px auto;
+    padding : 20px;
+}
+
+fieldset {
+    display : grid;
+    width : 100%;
+    margin : 0 auto;
+    border : none;
+}
+
+fieldset .form-item:last-of-type {
+    margin-bottom : 15px;
+}
+
+.form-item {
+    display : grid;
+    width : 100%;
+    margin-top : 20px;
+    margin-bottom : 5px;
+}
+
+label, input, textarea, select, button {
+    font-size : 1rem;
+    font-family : Arial, sans-serif;
+    width : 100%;
+    margin-bottom : 5px;
+}
+
+    input, select, button {
+    height : 50px;
+    padding : 10px;
+}
+
+label {
+    align-self : flex-end;
+}
+
+p {
+    padding : 10px;
+    background-color : grey;
+    color : white;
+    width : 200px;
+    height : auto;
+    text-align : center;
+    margin : 0 auto;
+    margin-bottom : 5px;
+    align-self : center;
+}
+
+textarea {
+    min-width : 100%;
+    max-width : 100%;
+    width : fit-content;
+    padding : 10px;
+}
+
+button {
+    width : 40%;
+    margin : 0 auto;
+    height : 50px;
+    background-color : lightblue;
+}
